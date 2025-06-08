@@ -1,0 +1,5 @@
+<!-- Это простой SVG логотип будет сконвертирован в PNG -->
+<svg width="192" height="192" xmlns="http://www.w3.org/2000/svg">
+  <rect width="192" height="192" fill="#6366f1" rx="24"/>
+  <text x="96" y="110" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="white">UL</text>
+</svg> 

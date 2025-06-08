@@ -1,0 +1,88 @@
+{
+  "short_name": "UX/UI Lab",
+  "name": "UX/UI Lab - Анализ пользовательских интерфейсов",
+  "description": "Платформа для автоматизированного анализа UX/UI, включая проверку доступности, юзабилити и производительности",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#6366f1",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "ru",
+  "dir": "ltr",
+  "categories": ["productivity", "utilities", "developer"],
+  "screenshots": [
+    {
+      "src": "screenshot-wide.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "screenshot-narrow.png", 
+      "sizes": "640x1136",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Новый проект",
+      "short_name": "Создать",
+      "description": "Создать новый проект анализа",
+      "url": "/projects/new",
+      "icons": [
+        {
+          "src": "icon-new-project.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Проекты",
+      "short_name": "Проекты", 
+      "description": "Просмотр всех проектов",
+      "url": "/projects",
+      "icons": [
+        {
+          "src": "icon-projects.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Отчеты",
+      "short_name": "Отчеты",
+      "description": "Просмотр отчетов анализа",
+      "url": "/reports", 
+      "icons": [
+        {
+          "src": "icon-reports.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
+} 
