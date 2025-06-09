@@ -4,6 +4,7 @@
   "description": "Веб-приложение UX/UI Lab для автоматизированного анализа пользовательских интерфейсов",
   "type": "module",
   "main": "server/server.js",
+  "homepage": "https://alinashpag.github.io/lab",
   "scripts": {
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "server": "nodemon server/server.js",
